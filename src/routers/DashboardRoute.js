@@ -5,6 +5,7 @@ import { AboutUsScreen } from "../components/about/AboutUsScreen";
 import { CommunityScreen } from "../components/community/CommunityScreen";
 import { ContactScreen } from "../components/contact/ContactScreen";
 import { Navbar } from "../components/entends/Navbar";
+import { Footer } from "../components/entends/Footer";
 import { GaleryScreen } from "../components/galery/GaleryScreen";
 import { MembersScreen } from "../components/members/MembersScreen";
 import { OlympusScreen } from "../components/olympus/OlympusScreen";
@@ -28,6 +29,8 @@ export const DashboardRoute = () => {
                     <Redirect to="/welcome" />
                 </Switch>
             </div>
+
+            <Footer />
 
         </Fragment>
     )
