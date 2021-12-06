@@ -5,10 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Navbar } from "../components/entends/Navbar";
-import { Footer } from "../components/entends/Footer";
 import { LoginScreen } from "../components/session/LoginScreen";
-import { CommunityScreen } from "../components/community/CommunityScreen";
 import { DashboardRoute } from "./DashboardRoute";
 
 export const AppRouter = () => {
