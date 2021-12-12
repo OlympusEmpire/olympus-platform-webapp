@@ -9,7 +9,6 @@ import { Footer } from "../components/entends/Footer";
 import { GaleryScreen } from "../components/galery/GaleryScreen";
 import { MembersScreen } from "../components/members/MembersScreen";
 import { OlympusScreen } from "../components/olympus/OlympusScreen";
-import { JoinUsScreen } from "../components/session/JoinUsScreen";
 
 export const DashboardRoute = () => {
     return (
@@ -24,8 +23,6 @@ export const DashboardRoute = () => {
                     <Route exact path="/contact" component={ ContactScreen } />
                     <Route exact path="/galery" component={ GaleryScreen } />
                     <Route exact path="/community" component={ CommunityScreen } />
-                    <Route exact path="/join-us" component={ JoinUsScreen } />
-
                     <Redirect to="/welcome" />
                 </Switch>
             </div>

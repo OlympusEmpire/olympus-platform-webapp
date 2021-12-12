@@ -9,8 +9,8 @@ export const LoginScreen = ({ history }) => {
     return (
         <div
              className = "container mt-5"
-         >
-            <form className = "form">
+        >
+            <form>
 
             <div class="form-outline mb-4">
                 <input type="email" id="form2Example1" class="form-control " />
@@ -46,21 +46,15 @@ export const LoginScreen = ({ history }) => {
             <div class="text-center text-light">
                 <p>¿Aún no eres miembro? <a href="#!" className = "text-warning"> Registrate</a></p>
                 <p>o inicia sesión con:</p>
-                <button type="button" class="btn btn-warning btn-floating mx-1">
+
+                <button type="button" class="btn btn-primary btn-floating mx-1">
                 <i class="fab fa-facebook-f"></i>
                 </button>
 
-                <button type="button" class="btn btn-warning btn-floating mx-1">
+                <button type="button" class="btn btn-danger btn-floating mx-1">
                 <i class="fab fa-google"></i>
                 </button>
 
-                <button type="button" class="btn btn-warning btn-floating mx-1">
-                <i class="fab fa-twitter"></i>
-                </button>
-
-                <button type="button" class="btn btn-warning btn-floating mx-1">
-                <i class="fab fa-github"></i>
-                </button>
             </div>
             </form>
         </div>

@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import { LoginScreen } from "../components/session/LoginScreen";
+import { JoinUsScreen } from "../components/session/JoinUsScreen";
 import { DashboardRoute } from "./DashboardRoute";
 
 export const AppRouter = () => {
@@ -14,7 +15,7 @@ export const AppRouter = () => {
         <div>
           <Switch>
             <Route exact path="/login" component={ LoginScreen } />
-
+            <Route exact path="/join-us" component={ JoinUsScreen } />
             <Route path="/" component={ DashboardRoute } />
 
           </Switch>
