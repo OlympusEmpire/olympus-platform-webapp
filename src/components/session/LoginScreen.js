@@ -1,25 +1,35 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./login.css"
 
 export const LoginScreen = () => {
 
     return (
         <div
-             id = "loginform"
-             className = "container mt-5"
+             id = "login-container"
+             className = "container h-80"
         >
+
+            <h5 className="text-white text-center py-4 tittle">
+                <strong>INICIAR SESIÓN</strong>
+            </h5>
+
             <form>
-
-            <div className="form-outline mb-4">
-                <input type="email" id="form2Example1" className="form-control text-white" />
-                <label className="form-label text-warning" for="form2Example1">Email o Username</label>
+    
+            <div className="mb-4">
+                <div className="col">
+                    <label className="text-warning"><i class="fas fa-user" /> Ingrese su e-mail o nombre de usuario</label>
+                    <input type="text" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="E-mail o Nombre de usuario" />
+                </div>
             </div>
 
-            <div className="form-outline mb-4">
-                <input type="password" id="form2Example2" className="form-control text-white" />
-                <label className="form-label text-warning" for="form2Example2">Contraseña</label>
+            <div className="mb-4">
+                <div className="col">
+                    <label className="text-warning"><i class="fas fa-key" /> Ingrese su contraseña</label>
+                    <input type="password" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="Contraseña" />
+                </div>
             </div>
-
+            
             <div className="row mb-4 text-light">
                 <div className="col d-flex justify-content-center">
 
@@ -35,14 +45,15 @@ export const LoginScreen = () => {
 
                 <div className="col">
 
-                <a href="#!" className = "text-warning">¿Olvidaste la contraseña?</a>
+                <Link exact to="/reset-password" className = "text-warning">¿Olvidaste la contraseña?</Link>
                 </div>
             </div>
 
             <button type="submit" className="btn btn-outline-warning btn-block mb-5">Iniciar Sesión</button>
 
             <div className="text-center text-light">
-                <p>¿Aún no eres miembro? <a href="#!" className = "text-warning"> Registrate</a></p>
+                <p>¿Aún no eres miembro? 
+                    <Link exact to="/join-us" className = "text-warning"> Registrate</Link></p>
                 <p>o inicia sesión con:</p>
 
                 <button type="button" className="btn btn-primary btn-floating mx-1">

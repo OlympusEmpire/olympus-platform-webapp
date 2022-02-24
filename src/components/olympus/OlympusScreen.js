@@ -1,8 +1,18 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import './olympus.css'
+import axios from 'axios'
+import Representer from './Representer'
 
 export const OlympusScreen = () => {
+    const [messages, setMessage] = useState([]);
+    const loadWelcomData = () => {
+        axios.get('http://localhost:2856/olympus/welcome')
+        .then(({data}) => setMessage(data));
+    }
+    useEffect(loadWelcomData, []);
+
     return (
         <Fragment>
             <div id="intro" className="bg-image vh-100 shadow-1-strong">
@@ -11,11 +21,11 @@ export const OlympusScreen = () => {
                     <source className="h-100" src="assets/video/olympus.mp4" type="video/mp4" />
                 </video>
 
-                <div className="mask">
+                <div className="mask" key = {messages.welcomeId}>
                     <div className="container d-flex align-items-center justify-content-center text-center h-100">
                         <div className="text-white">
-                            <h1 className="mb-3 tittle">Bienvenido al Imperio Olympus</h1>
-                            <h5 className="mb-4 subtitle">Gestión de redes de grupos sociales y comunidades más grandes del mundo.</h5>
+                            <h1 className="mb-3 tittle">{messages.mainTittle}</h1>
+                            <h5 className="mb-4 subtitle">{messages.mainSubTittle}</h5>
                             
                             <Link
                                 exact
@@ -52,9 +62,9 @@ export const OlympusScreen = () => {
                     <div className="col-md-3">
                         <div className="card text-white bg-dark">
                         <div className="card-body">
-                            <h3>Únete a grupos</h3>
+                            <h3>{messages.card1Tittle}</h3>
                             <p>
-                            En la plataforma Olympus encontrarás grupos de WhatsApp, Facebook, Telegram e Instagram.
+                            {messages.card1SubTittle}
                             </p>
                         </div>
                         </div>
@@ -62,9 +72,9 @@ export const OlympusScreen = () => {
                     <div className="col-md-3">
                         <div className="card text-white bg-dark">
                         <div className="card-body text-primary">
-                            <h3>Publica publicidad</h3>
+                            <h3>{messages.card2Tittle}</h3>
                             <p>
-                            Abre campo y publica tu publicidad en los grupos anexados a Olympus.
+                            {messages.card2SubTittle}
                             </p>
                         </div>
                         </div>
@@ -72,9 +82,9 @@ export const OlympusScreen = () => {
                     <div className="col-md-3">
                         <div className="card text-white bg-dark">
                         <div className="card-body">
-                            <h3>Haz tu grupo social popular</h3>
+                            <h3>{messages.card3Tittle}</h3>
                             <p>
-                            Crea tu grupo en una red social y hazla popular.
+                            {messages.card3SubTittle}
                             </p>
                         </div>
                         </div>
@@ -82,9 +92,9 @@ export const OlympusScreen = () => {
                     <div className="col-md-3">
                         <div className="card text-white bg-dark">
                         <div className="card-body text-primary">
-                            <h3>Diviertete y más...</h3>
+                            <h3>{messages.card4Tittle}</h3>
                             <p>
-                            Conoce a personas del mundo de tú mismo interés.
+                            {messages.card4SubTittle}
                             </p>
                         </div>
                         </div>
@@ -95,42 +105,22 @@ export const OlympusScreen = () => {
 
             <div claasName="text-center communities">
                 <div className="container p-5">
-                    <h1 className="text-center text-white">COMUNIDADES</h1>
-                    <p className="text-white">
-                    Olympus presenta sus mejores comunidades, destacados por sus temáticas y diferenciados por sus dinámicas, inclúyete en una de estas comunidades, conoce personas con objetivos y metas en común.
+                    <h1 className="text-center text-white">{messages.communityTittle}</h1>
+                    <p className="text-white text-center">
+                    {messages.descComunity}
                     </p>
                 </div>
             </div>
 
             <div className="text-center team">
                 <div className="container p-5">
-                    <h1 className="text-center text-white">EQUIPO</h1>
-                    <p className="text-white">
-                    Estamos siempre en contacto y resolvemos tus dudas comunicandote con nostros. Estamos pendiente de todos los grupos anexados al Olympus con la condición de ser estrictos en todo el reglamento de los grupos asociados y del Olympus.
+                    <h1 className="text-center text-white">{messages.teamTittle}</h1>
+                    <p className="text-white text-center">
+                    {messages.descTeam}
                     </p>
 
                     <div className="row">
-                        <div className="col-lg-3">
-                            <div className="card">
-                                <div className="card-body">
-                                    <img src="" className="img-fluid rounded-circle w-50"></img>
-                                    <h3>Kevin Julius Sauco</h3>
-                                    <h4><b>Founder</b></h4>
-
-                                    <div className="d-flex flex-row justify-content-center">
-                                        <div className="p-4">
-                                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                        </div>
-                                        <div className="p-4">
-                                            <a href="#"><i className="fab fa-whatsapp"></i></a>
-                                        </div>
-                                        <div className="p-4">
-                                            <a href="#"><i className="fab fa-instagram"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <Representer messages={messages} />
                     </div>
                 </div>
             </div>
