@@ -16,25 +16,25 @@ export const JoinUsScreen = () => {
             <div className="mb-4">
                 <div className="col">
                     <label className="text-warning"><i className="fas fa-user" /> Ingrese su nombre de usuario</label>
-                    <input name="username" type="text" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="Nombre de usuario" />
+                    <input name="username" type="text" id="username" className="form-control bg-dark text-white" placeholder="Nombre de usuario" />
                 </div>
             </div>
             
             <div className="mb-4">
                 <div className="col">
                     <label className="text-warning"><i className="fa fa-envelope" /> Ingrese su e-mail</label>
-                    <input name="email" type="email" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="E-mail" />
+                    <input name="email" type="email" id="email" className="form-control bg-dark text-white" placeholder="E-mail" />
                 </div>
             </div>
 
             <div className="row mb-4">
                 <div className="col">
                     <label className="text-warning"><i className="fas fa-key" /> Ingrese su contraseña</label>
-                    <input name="password" type="password" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="Contraseña" />
+                    <input name="password" type="password" id="password" className="form-control bg-dark text-white" placeholder="Contraseña" />
                 </div>
                 <div className="col">
                     <label className="text-warning"><i className="fas fa-key" /> Repita su contraseña</label>
-                    <input name="repeatPassword" type="password" id="defaultRegisterFormFirstName" className="form-control bg-dark text-white" placeholder="Repetir contraseña" />
+                    <input name="repeatPassword" type="password" id="repeatPassword" className="form-control bg-dark text-white" placeholder="Repetir contraseña" />
                 </div>
             </div>
 
