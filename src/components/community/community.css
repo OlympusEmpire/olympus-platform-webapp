@@ -1,13 +1,15 @@
 .cm-card{
-    margin-top: 1%;
     margin-bottom: 5%;
+}
+
+.cm-ct {
+    margin-top: 35px;
+}
+
+#cm-cd {
+    margin-bottom: 35px;
 }
 
 #social-btn {
     margin-top: 2%;
-}
-
-#cont-cm {
-    padding: 2%;
-    margin-bottom: 2%;
 }
