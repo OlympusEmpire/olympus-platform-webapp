@@ -96,6 +96,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -111,6 +112,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -126,6 +128,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -141,6 +144,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -156,6 +160,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -171,6 +176,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -186,6 +192,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
@@ -201,66 +208,7 @@ export const CommunityScreen = () => {
                 <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
                 <div className="card-body md-5">
                     <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
-                    <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
-                    <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-success btn-lg btn-block">Grupo de WhatsApp</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-warning btn-lg btn-block">Grupo de Instagram</button>
-                </div>
-            </div>
-            </div>
-
-            <div className="col-sm-4 col-sm-12 col-lg-3" id="cm-cd">
-            <div className="card team text-white bg-dark cm-card">
-                <h4 name="typeUserName" className="card-title tittle text-center" >OLYMPUS</h4>
-                <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
-                <div className="card-body md-5">
-                    <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
-                    <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
-                    <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-success btn-lg btn-block">Grupo de WhatsApp</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-warning btn-lg btn-block">Grupo de Instagram</button>
-                </div>
-            </div>
-            </div>
-
-            <div className="col-sm-4 col-sm-12 col-lg-3" id="cm-cd">
-            <div className="card team text-white bg-dark cm-card">
-                <h4 name="typeUserName" className="card-title tittle text-center" >OLYMPUS</h4>
-                <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
-                <div className="card-body md-5">
-                    <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
-                    <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
-                    <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-success btn-lg btn-block">Grupo de WhatsApp</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-warning btn-lg btn-block">Grupo de Instagram</button>
-                </div>
-            </div>
-            </div>
-
-            <div className="col-sm-4 col-sm-12 col-lg-3" id="cm-cd">
-            <div className="card team text-white bg-dark cm-card">
-                <h4 name="typeUserName" className="card-title tittle text-center" >OLYMPUS</h4>
-                <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
-                <div className="card-body md-5">
-                    <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
-                    <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
-                    <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-success btn-lg btn-block">Grupo de WhatsApp</button>
-                    <button type="button" id="social-btn" className="btn btn-outline-warning btn-lg btn-block">Grupo de Instagram</button>
-                </div>
-            </div>
-            </div>
-
-            <div className="col-sm-4 col-sm-12 col-lg-3" id="cm-cd">
-            <div className="card team text-white bg-dark cm-card">
-                <h4 name="typeUserName" className="card-title tittle text-center" >OLYMPUS</h4>
-                <img className="card-img-top img-fluid rounded" src="https://i.imgur.com/2P6CgK4.jpg" alt="Card image cap"></img>
-                <div className="card-body md-5">
-                    <label name="subtittle" className="card-text subtitle md-1">Grupo de amistad y comunidad</label>
+                    <h6 class="card-title"><b>Founder: Julius Sauco</b></h6>
                     <p name="description" className="card-text text-justify md-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam <a href="#"> ver más</a></p>
                     <button type="button" id="social-btn" className="btn btn-outline-primary btn-lg btn-block">Grupo de Facebook</button>
